@@ -25,4 +25,27 @@ El desarrollo del proyecto se dividió en tres fases: comprensión de los requis
 - Se utilizó IntelliJ IDEA como entorno de desarrollo y XAMPP para MySQL.
 - La gestión de proyectos se realizó con JIRA, el control de versiones con GIT y BitBucket.
 - Se utilizó la colaboración en tiempo real a través de Collaborate y Discord para la comunicación del equipo.
+##
+@authors: Jan Fite - Miquel Prats - Victor Valles - Oscar Julian - Carles Torrubiano  
+@IDE: IntelliJ IDEA  
+@SDK: Java 10 o superior  
+### Librerías externas: 
+	- mysql-connector-java-5.1.47-bin
+	- com.google.code.gson:gson:2.8.52
+   
+### JSON: 
+	- server_minder/src/data/config.json | Configuració per la connexió amb la BBDD i port d'escolta del servidor
+	- client_minder/src/data/config.json | Conté el port + IP del servidor
+  
+Les imatges dels perfils del usuaris es guardan a la següent ruta del servidor: client_minder/src/data/usersImg
 
+### Execution:
+	1. Importar arxiu .sql i iniciar la BBDD.
+	2. Obrir el projecte amb l'IDE IntelliJ.
+	3. Apareixeran tres moduls (carpetes).
+		-client_minder
+		-server_minder
+		-shared
+	4. Executar el Main que hi ha dintre de server_minder.
+	5. Un cop estigui el servidor en marxa, executar el main que hi ha dintre de client_minder.
+	6. Si habilitem a "main -> Edit Configurations-> Allow paralel run" podem executar diferents client alhora. 
