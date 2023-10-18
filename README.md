@@ -14,38 +14,37 @@ El programa sigue una arquitectura cliente-servidor, lo que significa que la inf
 - Chat en Tiempo Real: Una vez que dos usuarios hacen "match", pueden comenzar a chatear en tiempo real.
 - Estadísticas del Servidor: El servidor muestra gráficos de la evolución de los "matchs" en la aplicación y una tabla con el TOP 5 de usuarios con más "matchs".
 ## Diseño de la Interfaz Gráfica
-### Servidor:
-La interfaz del servidor incluye una sección de gráficas que muestra la evolución de los "matchs" en diferentes períodos de tiempo y una sección que muestra el TOP 5 de usuarios con más "matchs".
-### Cliente: 
-El cliente tiene varias ventanas, incluyendo la ventana de inicio de sesión, registro, perfil, lista de chats y ventana de chat. Cada una de estas ventanas incluye elementos como campos de entrada, botones y ventanas emergentes para notificaciones.
+- Servidor: La interfaz del servidor incluye una sección de gráficas que muestra la evolución de los "matchs" en diferentes períodos de tiempo y una sección que muestra el TOP 5 de usuarios con más "matchs".
+- Cliente: El cliente tiene varias ventanas, incluyendo la ventana de inicio de sesión, registro, perfil, lista de chats y ventana de chat. Cada una de estas ventanas incluye elementos como campos de entrada, botones y ventanas emergentes para notificaciones.
 ## Metodología de Desarrollo:
-El desarrollo del proyecto se dividió en tres fases: comprensión de los requisitos, diseño y codificación.
+El desarrollo del proyecto se dividió en tres fases: comprensión de los requisitos, diseño y codificación.  
 - En la fase de diseño, se trabajó en la estructura del proyecto, incluyendo un diagrama de clases (UML).
 - La codificación se realizó en Java, con el uso de MySQL para la base de datos.
 - Se utilizó IntelliJ IDEA como entorno de desarrollo y XAMPP para MySQL.
 - La gestión de proyectos se realizó con JIRA, el control de versiones con GIT y BitBucket.
 - Se utilizó la colaboración en tiempo real a través de Collaborate y Discord para la comunicación del equipo.
+
 ##
+
 @authors: Jan Fite - Miquel Prats - Victor Valles - Oscar Julian - Carles Torrubiano  
 @date: 23 de Maig 2020  
 @IDE: IntelliJ IDEA  
 @SDK: Java 10 o superior  
-### Librerías externas: 
-	- mysql-connector-java-5.1.47-bin
-	- com.google.code.gson:gson:2.8.52
-   
-### JSON: 
-	- server_minder/src/data/config.json | Configuració per la connexió amb la BBDD i port d'escolta del servidor
-	- client_minder/src/data/config.json | Conté el port + IP del servidor
+#### Librerías externas: 
+- mysql-connector-java-5.1.47-bin
+- com.google.code.gson:gson:2.8.52
+#### JSON: 
+ - server_minder/src/data/config.json | Configuració per la connexió amb la BBDD i port d'escolta del servidor
+ - client_minder/src/data/config.json | Conté el port + IP del servidor
   
 Les imatges dels perfils del usuaris es guardan a la següent ruta del servidor: client_minder/src/data/usersImg
 
-### Execution:
-	1. Importar arxiu .sql i iniciar la BBDD.
-	2. Obrir el projecte amb l'IDE IntelliJ.
-	3. Apareixeran tres moduls (carpetes).
-		-client_minder
-		-server_minder
+#### Execution:
+ 1. Importar arxiu .sql i iniciar la BBDD.
+ 2. Obrir el projecte amb l'IDE IntelliJ.
+ 3. Apareixeran tres moduls (carpetes).
+	-client_minder
+	-server_minder
 		-shared
 	4. Executar el Main que hi ha dintre de server_minder.
 	5. Un cop estigui el servidor en marxa, executar el main que hi ha dintre de client_minder.
