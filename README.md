@@ -27,6 +27,7 @@ El desarrollo del proyecto se dividió en tres fases: comprensión de los requis
 - Se utilizó la colaboración en tiempo real a través de Collaborate y Discord para la comunicación del equipo.
 ##
 @authors: Jan Fite - Miquel Prats - Victor Valles - Oscar Julian - Carles Torrubiano  
+@date: 23 de Maig 2020  
 @IDE: IntelliJ IDEA  
 @SDK: Java 10 o superior  
 ### Librerías externas: 
