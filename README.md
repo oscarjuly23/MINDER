@@ -45,7 +45,7 @@ Les imatges dels perfils del usuaris es guardan a la següent ruta del servidor:
  3. Apareixeran tres moduls (carpetes).
 	-client_minder
 	-server_minder
-		-shared
-	4. Executar el Main que hi ha dintre de server_minder.
-	5. Un cop estigui el servidor en marxa, executar el main que hi ha dintre de client_minder.
-	6. Si habilitem a "main -> Edit Configurations-> Allow paralel run" podem executar diferents client alhora. 
+	-shared
+4. Executar el Main que hi ha dintre de server_minder.
+5. Un cop estigui el servidor en marxa, executar el main que hi ha dintre de client_minder.
+6. Si habilitem a "main -> Edit Configurations-> Allow paralel run" podem executar diferents client alhora. 
