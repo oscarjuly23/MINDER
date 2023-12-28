@@ -50,5 +50,8 @@ Les imatges dels perfils del usuaris es guardan a la següent ruta del servidor:
 5. Un cop estigui el servidor en marxa, executar el main que hi ha dintre de client_minder.
 6. Si habilitem a "main -> Edit Configurations-> Allow paralel run" podem executar diferents client alhora.
 
-![image](https://github.com/oscarjuly23/MINDER/assets/39187459/ed65d09a-83cd-4476-9f0b-eb727825132d)
-![image](https://github.com/oscarjuly23/MINDER/assets/39187459/aaa77418-44f5-49e0-a941-c59cc5eeba4b)
+##
+<p align="center">
+	<img src="https://github.com/oscarjuly23/MINDER/assets/39187459/ed65d09a-83cd-4476-9f0b-eb727825132d">
+	<img src="https://github.com/oscarjuly23/MINDER/assets/39187459/aaa77418-44f5-49e0-a941-c59cc5eeba4b">
+</p>
